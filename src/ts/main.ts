@@ -85,4 +85,7 @@ export function clearTodos(todos: Todo[]) {
   exports.createHtml(todos);
 }
 
+addEventListener("DOMContentLoaded", () => {
+  createHtml(todos);
+});
 //createHtml(todos);
